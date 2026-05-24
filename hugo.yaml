@@ -1,0 +1,13 @@
+baseURL: "https://investnest.blog/"
+languageCode: "en-us"
+title: "InvestNest"
+theme: "PaperMod"
+
+params:
+  defaultTheme: "auto"
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  
+  # Custom Footer Configuration
+  hideFooter: false             # Keep the footer area for copyright
+  showPoweredBy: false          # This explicitly removes the "Powered by Hugo & PaperMod" links
