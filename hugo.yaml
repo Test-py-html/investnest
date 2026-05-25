@@ -22,6 +22,8 @@ params:
   showPoweredBy: false
   hideFooter: false
 
-  # Explicitly force the favicon paths
+  # RealFaviconGenerator favicon configuration
   assets:
     favicon: "/favicon.ico"
+  
+  # Additional favicon link references handled in template
