@@ -3,11 +3,21 @@ languageCode: "en-us"
 title: "InvestNest"
 theme: "PaperMod"
 
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # Required for the search index engine
+
+menu:
+  main:
+    - name: Search
+      url: search/
+      weight: 10
+
 params:
   defaultTheme: "auto"
   ShowReadingTime: true
   ShowPostNavLinks: true
-  
-  # Custom Footer Configuration
-  hideFooter: false             # Keep the footer area for copyright
-  showPoweredBy: false          # This explicitly removes the "Powered by Hugo & PaperMod" links
+  showPoweredBy: false # Completely removes the Hugo & PaperMod watermark links
+  hideFooter: false
