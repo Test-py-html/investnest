@@ -7,7 +7,7 @@ outputs:
   home:
     - HTML
     - RSS
-    - JSON # Required for the search index engine
+    - JSON
 
 menu:
   main:
@@ -19,5 +19,9 @@ params:
   defaultTheme: "auto"
   ShowReadingTime: true
   ShowPostNavLinks: true
-  showPoweredBy: false # Completely removes the Hugo & PaperMod watermark links
+  showPoweredBy: false
   hideFooter: false
+
+  # Explicitly force the favicon paths
+  assets:
+    favicon: "/favicon.ico"
